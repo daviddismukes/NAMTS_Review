@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style_Quizsite2.css">
+    <title>Quizsite</title>
+</head>
+
+<body>
+    <script>
+        function Corrige() {
+            var Q1 = "The response to question 1 is incorrect";
+            var Q2 = "The response to question 2 is incorrect";
+            var Q3 = "The response to question 3 is incorrect";
+			var Q4 = "The response to question 4 is incorrect";
+			var Q5 = "The response to question 5 is incorrect";
+            var Q6 = "The response to question 6 is incorrect";
+            var Q7 = "The response to question 7 is incorrect";
+			var Q8 = "The response to question 8 is incorrect";
+			var Q9 = "The response to question 9 is incorrect";
+			var Q10 = "The response to question 10 is incorrect";
+			var Q11 = "The response to question 11 is incorrect";
+			var Q12 = "The response to question 12 is incorrect";
+			var Q13 = "The response to question 13 is incorrect";
+			var Q14 = "The response to question 14 is incorrect";
+			var Q15 = "The response to question 15 is incorrect";
+			var Q16 = "The response to question 16 is incorrect";
+			var Q17 = "The response to question 17 is incorrect";
+			var Q18 = "The response to question 18 is incorrect";
+			var Q19 = "The response to question 19 is incorrect";
+			var Q20 = "The response to question 20 is incorrect";
+			var Q21 = "The response to question 21 is incorrect";
+			var Q22 = "The response to question 22 is incorrect";
+			var Q23 = "The response to question 23 is incorrect";
+			var Q24 = "The response to question 24 is incorrect";
+			var Q25 = "The response to question 25 is incorrect";
+			
+			
+			/*Question 1 */
+			if ((document.getElementById('Q311').checked == true) && (document.getElementById('Q312').checked == false)) {
+                Q1 = "The response to question 1 is correct";
+            }
+			/*Question 2 */
+			if ((document.getElementById('Q321').checked == true) && (document.getElementById('Q322').checked == false)) {
+                Q2 = "The response to question 2 is correct";
+            }
+			/*Question 3 */
+			if ((document.getElementById('Q31').checked == false) && (document.getElementById('Q32').checked == true)) {
+                Q3 = "The response to question 3 is correct";
+            }
+			/*Question 4 */
+			if ((document.getElementById('Q41').checked == true) && (document.getElementById('Q42').checked == false)) {
+                Q4 = "The response to question 4 is correct";
+			}
+			/*Question 5 */
+			if ((document.getElementById('Q51').checked == false) && (document.getElementById('Q52').checked == true)) {
+                Q5 = "The response to question 5 is correct";
+			}
+			/*Question 6 */
+			if ((document.getElementById('Q61').checked == true) && (document.getElementById('Q62').checked == false)) {
+                Q6 = "The response to question 6 is correct";
+			}
+			/*Question 7 */
+			if ((document.getElementById('Q71').checked == true) && (document.getElementById('Q72').checked == false)) {
+                Q7 = "The response to question 7 is correct";
+			}
+			/*Question 8 */
+			if ((document.getElementById('Q81').checked == true) && (document.getElementById('Q82').checked == false)) {
+                Q8 = "The response to question 8 is correct";
+			}	
+			/*Question 9 */
+			if ((document.getElementById('Q91').checked == true) && (document.getElementById('Q92').checked == false)) {
+                Q9 = "The response to question 9 is correct";
+			}
+			/*Question 10 */
+			if ((document.getElementById('Q101').checked == true) && (document.getElementById('Q102').checked == false)){		
+                Q10 = "The response to question 10 is correct";
+			}
+			
+			/*Question 11 */
+			if ((document.getElementById('Q111').checked == false) && (document.getElementById('Q112').checked == true)) {
+                Q11 = "The response to question 11 is correct";
+            }
+			/*Question 12 */
+			if ((document.getElementById('Q121').checked == true) && (document.getElementById('Q122').checked == false)) {
+                Q12 = "The response to question 12 is correct";
+            }
+			/*Question 13 */
+			if ((document.getElementById('Q131').checked == true) && (document.getElementById('Q132').checked == false)) {
+                Q13 = "The response to question 13 is correct";
+            }
+			/*Question 14 */
+			if ((document.getElementById('Q141').checked == true) && (document.getElementById('Q142').checked == false)) {
+                Q14 = "The response to question 14 is correct";
+			}
+			/*Question 15 */
+			if ((document.getElementById('Q151').checked == true) && (document.getElementById('Q152').checked == false)) {
+                Q15 = "The response to question 15 is correct";
+			}
+			/*Question 16 */
+			if ((document.getElementById('Q161').checked == true) && (document.getElementById('Q162').checked == false)) {
+                Q16 = "The response to question 16 is correct";
+			}
+			/*Question 17 */
+			if ((document.getElementById('Q171').checked == true) && (document.getElementById('Q172').checked == false)) {
+                Q17 = "The response to question 17 is correct";
+			}
+			/*Question 18 */
+			if ((document.getElementById('Q181').checked == false) && (document.getElementById('Q182').checked == true)) {
+                Q18 = "The response to question 18 is correct";
+			}	
+			/*Question 19 */
+			if ((document.getElementById('Q191').checked == true) && (document.getElementById('Q192').checked == false)) {
+                Q19 = "The response to question 19 is correct";
+			}
+			/*Question 20 */
+			if ((document.getElementById('Q201').checked == true) && (document.getElementById('Q202').checked == false)){		
+                Q20 = "The response to question 20 is correct";
+			}
+
+			/*Question 21 */
+			if ((document.getElementById('Q211').checked == true) && (document.getElementById('Q212').checked == false)) {
+                Q21 = "The response to question 21 is correct";
+			}
+			/*Question 22 */
+			if ((document.getElementById('Q221').checked == true) && (document.getElementById('Q222').checked == false)) {
+                Q21 = "The response to question 22 is correct";
+			}
+			/*Question 23 */
+			if ((document.getElementById('Q231').checked == true) && (document.getElementById('Q232').checked == false)) {
+                Q23 = "The response to question 23 is correct";
+			}
+			/*Question 24 */
+			if ((document.getElementById('Q241').checked == true) && (document.getElementById('Q242').checked == false)) {
+                Q24 = "The response to question 24 is correct";
+			}	
+			/*Question 25 */
+			if ((document.getElementById('Q251').checked == true) && (document.getElementById('Q252').checked == false)) {
+                Q25 = "The response to question 25 is correct";
+			}
+
+			
+			alert(Q1 + "\n" + Q2 + "\n" + Q3 + "\n" + Q4 +"\n" + Q5 +"\n" + Q6 + "\n"+ Q7 +"\n"+ Q8 +"\n"+ Q9 + "\n" + Q10 + "\n" + Q11 + "\n" + Q12 + "\n" + Q13 + "\n" + Q14 + "\n" + Q15 + "\n" + Q16 + "\n"+ Q17 + "\n" + Q18 + "\n" + Q19 + "\n" + Q20 + "\n" + Q21 + "\n" + Q22 + "\n" + Q23 +"\n" + Q24 + "\n" + Q25 + "\n");
+        }
+        function vider() {
+            document.getElementById('Q311').checked = false;
+            document.getElementById('Q312').checked = false;
+            document.getElementById('Q321').checked = false;
+            document.getElementById('Q322').checked = false;
+            document.getElementById('Q31').checked = false;
+            document.getElementById('Q32').checked = false;
+			document.getElementById('Q41').checked = false;
+			document.getElementById('Q42').checked = false;
+			document.getElementById('Q51').checked = false;
+			document.getElementById('Q52').checked = false;
+			document.getElementById('Q61').checked = false;
+			document.getElementById('Q62').checked = false;
+			document.getElementById('Q71').checked = false;
+			document.getElementById('Q72').checked = false;
+			document.getElementById('Q81').checked = false;
+			document.getElementById('Q82').checked = false;
+			document.getElementById('Q91').checked = false;
+			document.getElementById('Q92').checked = false;
+			document.getElementById('Q101').checked = false;
+			document.getElementById('Q102').checked = false;
+			document.getElementById('Q111').checked = false;
+            document.getElementById('Q112').checked = false;
+            document.getElementById('Q121').checked = false;
+            document.getElementById('Q122').checked = false;
+            document.getElementById('Q131').checked = false;
+            document.getElementById('Q132').checked = false;
+			document.getElementById('Q141').checked = false;
+			document.getElementById('Q142').checked = false;
+			document.getElementById('Q151').checked = false;
+			document.getElementById('Q152').checked = false;
+			document.getElementById('Q161').checked = false;
+			document.getElementById('Q162').checked = false;
+			document.getElementById('Q171').checked = false;
+			document.getElementById('Q172').checked = false;
+			document.getElementById('Q181').checked = false;
+			document.getElementById('Q182').checked = false;
+			document.getElementById('Q191').checked = false;
+			document.getElementById('Q192').checked = false;
+			document.getElementById('Q201').checked = false;
+			document.getElementById('Q202').checked = false;
+			document.getElementById('Q211').checked = false;
+			document.getElementById('Q212').checked = false;
+			document.getElementById('Q221').checked = false;
+			document.getElementById('Q222').checked = false;
+			document.getElementById('Q231').checked = false;
+			document.getElementById('Q232').checked = false;
+			document.getElementById('Q241').checked = false;
+			document.getElementById('Q242').checked = false;
+			document.getElementById('Q251').checked = false;
+			document.getElementById('Q252').checked = false;
+			
+        }
+    </script>
+    <fieldset>
+        <legend>
+            <h4>Quizsite</h4>
+        </legend>
+        <h1 id="kk">NAMTS Sample Exam</h1>
+        <hr>
+        <h4 id="jj">True or False</h4>
+        
+		<h4>Question 1 :</h4>
+        <p>The first step in treatment for Heat Stroke is too call away a medical emergency.?</p>
+        <ul>
+            <li><input type="checkbox" id="Q311"> True.</li>
+            <li><input type="checkbox" id="Q312"> False.</li>
+        </ul>
+		
+        <h4>Question 2 :</h4>
+        <p>Signs of Heat Exhaustion include: sweating, nausea, dizziness, vomiting, muscle cramps, feeling faint & fatigue?</p>
+        <ul>
+            <li><input type="checkbox" id="Q321"> True.</li>
+            <li><input type="checkbox" id="Q322"> False.</li>
+        </ul>
+		
+        <h4>Question 3 :</h4>
+        <p>Hearing test intervals for personnel enrolled in the program are monitored with an audiogram semi-annually?</p>
+        <ul>
+            <li><input type="checkbox" id="Q31"> True.</li>
+            <li><input type="checkbox" id="Q32"> False.</li>
+        </ul>
+		
+        <h4>Question 4 :</h4>
+        <p>Using the Navy style of cross pattern for brush painting, you should first lay on and then lay off, starting from the overhead area first, and then work downward?</p>
+        <ul>
+            <li><input type="checkbox" id="Q41"> True.</li>
+            <li><input type="checkbox" id="Q42"> False.</li>
+        </ul>
+		
+        <h4>Question 5 :</h4>
+        <p>Paint Brushes onboard can never be reused?</p>
+        <ul>
+            <li><input type="checkbox" id="Q51"> True.</li>
+            <li><input type="checkbox" id="Q52"> False.</li>
+        </ul>
+		
+	    <h4>Question 6 :</h4>
+        <p>The most powerful tool for surface preparation is the Portable grinder?</p>
+        <ul>
+            <li><input type="checkbox" id="Q61"> True.</li>
+            <li><input type="checkbox" id="Q62"> False.</li>
+        </ul>
+
+		<h4>Question 7 :</h4>
+        <p>The proper name for a deck crawler is rotary scaler or chipping tool?</p>
+        <ul>
+            <li><input type="checkbox" id="Q71"> True.</li>
+            <li><input type="checkbox" id="Q72"> False.</li>
+        </ul>
+
+		<h4>Question 8 :</h4>
+        <p>The type of cutting wheel suitable for non-ferrous metals are Silicon Carbide?</p>
+        <ul>
+            <li><input type="checkbox" id="Q81"> True.</li>
+            <li><input type="checkbox" id="Q82"> False.</li>
+        </ul>
+
+		<h4>Question 9 :</h4>
+        <p>All hands shall notify work-center supervisor before working in unventilated, non-occupied, or sealed spaces?</p>
+        <ul>
+            <li><input type="checkbox" id="Q91"> True.</li>
+            <li><input type="checkbox" id="Q92"> False</li>
+        </ul>	
+
+		<h4>Question 10 :</h4>
+        <p>Examples of potentially eye hazardous operations included: Warfighting and operational training, Cutting and welding, Drilling, Grinding, Milling, Chipping, Sand blasting, and Pouring / handling molten metals?</p>
+        <ul>
+            <li><input type="checkbox" id="Q101"> True.</li>
+            <li><input type="checkbox" id="Q102"> False.</li>
+        </ul>
+		
+		<h4>Question 11 :</h4>
+        <p>Annual training and fit testing are not required prior to performing work that requires respiratory protection?</p>
+        <ul>
+            <li><input type="checkbox" id="Q111"> True.</li>
+            <li><input type="checkbox" id="Q112"> False.</li>
+        </ul>
+		
+        <h4>Question 12 :</h4>
+        <p>The metric ton is an SI Unit?</p>
+        <ul>
+            <li><input type="checkbox" id="Q121"> True.</li>
+            <li><input type="checkbox" id="Q122"> False.</li>
+        </ul>
+		
+        <h4>Question 13 :</h4>
+        <p>Rigging weight limits are defined in NSTM 589?</p>
+        <ul>
+            <li><input type="checkbox" id="Q131"> True.</li>
+            <li><input type="checkbox" id="Q132"> False.</li>
+        </ul>
+		
+        <h4>Question 14 :</h4>
+        <p>Endless slings are formed by a single rope or web that is bent into a loop and whose ends are attached to each other?</p>
+        <ul>
+            <li><input type="checkbox" id="Q141"> True.</li>
+            <li><input type="checkbox" id="Q142"> False.</li>
+        </ul>
+		
+        <h4>Question 15 :</h4>
+        <p>A Shackle is an U-shaped fitting with a pin across the throat used as a connection between the chain-hoist and the material to be moved?</p>
+        <ul>
+            <li><input type="checkbox" id="Q151"> True.</li>
+            <li><input type="checkbox" id="Q152"> False.</li>
+        </ul>
+		
+	    <h4>Question 16 :</h4>
+        <p>The chief advantages of chain hoists are that one person can hoisting loads of several ton by hand?</p>
+        <ul>
+            <li><input type="checkbox" id="Q161"> True.</li>
+            <li><input type="checkbox" id="Q162"> False.</li>
+        </ul>
+
+		<h4>Question 17 :</h4>
+        <p>The four elements of a Formal work package are: Material, Procedure, Test and Inspection, and System Restoration?</p>
+        <ul>
+            <li><input type="checkbox" id="Q171"> True.</li>
+            <li><input type="checkbox" id="Q172"> False.</li>
+        </ul>
+
+		<h4>Question 18 :</h4>
+        <p>The list of references is a required element in a FWP?</p>
+        <ul>
+            <li><input type="checkbox" id="Q181"> True.</li>
+            <li><input type="checkbox" id="Q182"> False.</li>
+        </ul>
+
+		<h4>Question 19 :</h4>
+        <p>Tag-out audits are conducted daily before liberty call?</p>
+        <ul>
+            <li><input type="checkbox" id="Q191"> True.</li>
+            <li><input type="checkbox" id="Q192"> False</li>
+        </ul>	
+
+		<h4>Question 20 :</h4>
+        <p>The authorizing officer is responsible for administration of the Tag-out Log?</p>
+        <ul>
+            <li><input type="checkbox" id="Q201"> True.</li>
+            <li><input type="checkbox" id="Q202"> False.</li>
+        </ul>
+		<h4>Question 21 :</h4>
+        <p>The minimum temporary -(short term) bend diameter is normally 8 or more times the outside diameter of the cable</p>
+        <ul>
+            <li><input type="checkbox" id="Q211"> True.</li>
+            <li><input type="checkbox" id="Q212"> False.</li>
+        </ul>
+		
+        <h4>Question 22 :</h4>
+        <p>"HICSWIN (Hazardous Inventory Control System Windows) A principal software system used on ships for implementing CHRIMP (Consolidated Hazardous Material Reutilization and Inventory Management Program)"</p>
+        <ul>
+            <li><input type="checkbox" id="Q221"> True.</li>
+            <li><input type="checkbox" id="Q222"> False.</li>
+        </ul>
+		
+        <h4>Question 23 :</h4>
+        <p> The Six-steps of the troubleshooting method are: Symptom recognition, Symptom elaboration, Listing probable faulty functions, Localizing the faulty function, Localizing trouble to the circuit, and Failure analysis.</p>
+        <ul>
+            <li><input type="checkbox" id="Q231"> True.</li>
+            <li><input type="checkbox" id="Q231"> False.</li>
+        </ul>
+		
+        <h4>Question 24 :</h4>
+        <p>Information on for a WAF can be found in JFMM VOL IV.</p>
+        <ul>
+            <li><input type="checkbox" id="Q241"> True.</li>
+            <li><input type="checkbox" id="Q242"> False.</li>
+        </ul>
+		
+        <h4>Question 25 :</h4>
+        <p>A TWD is made up of a MP, FWP, or CWP</p>
+        <ul>
+            <li><input type="checkbox" id="Q251"> True.</li>
+            <li><input type="checkbox" id="Q252"> False.</li>
+        </ul>
+
+
+		<div id="But">         
+            <button onclick="Corrige()">Grade your Answers</button>
+			<button onclick="vider()">Erase</button>
+			<a href="Correction_quizsite2.html"><button>Correct Answers</button></a>
+        </div>
+    </fieldset>
+</body>
+
+</html>
